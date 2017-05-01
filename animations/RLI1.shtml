@@ -1,0 +1,41 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+                    
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+                    
+  <meta name="Author" content="Charlie Sullivan">
+                    
+  <meta name="GENERATOR"
+ content="Mozilla/4.7 [en] (WinNT; I) [Netscape]">
+  <title>ENGS 22 Homework Circuit Animation</title>
+    
+</head>
+   <!--#include file="colors.html" -->
+       
+<table cellpadding="0" cellspacing="4" border="0" width="90%">
+    <tbody>
+      <tr>
+        <td valign="top">              
+      <h1><font face="Helvetica, Arial, sans-serif">RLI circuit</font><br>
+        </h1>
+        This is a pretend circuit for a homework question.  The animation may not display real behavior!
+        </td>
+        <td valign="top"><br>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">           <img
+ src="http://engineering.dartmouth.edu/3Dcircuits/animations/RLI2.gif" height="420"
+ width="560">
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;          </td>
+          <td valign="top">       
+     <!--#include file="nav22list.html" -->
+      </td>
+        </tr>
+               
+  </tbody>    
+</table>
+</body>
+</html>

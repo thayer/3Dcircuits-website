@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+                               
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <title>3D circuit animation toolbox</title>
+                                                
+  <meta name="author" content="Charles R. Sullivan">
+                           
+  <meta name="description"
+ content="View 3D (3-D) electrical and electronic circuit 
+animations and download free MATLAB tools">
+</head>
+  <!--#include file="colors.html" -->
+  
+<h1>3-D Circuits <br>
+        The Circuit Animation Toolbox for M<small>ATLAB</small></h1>
+        Note:  Internet Explorer seems to run these animations 
+        slower than they are designed to run; Mozilla and Netscape work better. <br>
+ <img src="animations/accap.gif"
+ alt="Animation of a capacitor driven by an ac voltage source">
+ <br>
+ 
+<div align="left">3D electrical and electronic circuit animations make it 
+   easier to understand how circuits work. <br>On this site, you can find 
+  ready-made animations, and free M<small>ATLAB</small>-based tools to create your own animations.<br>
+ <br>
+ 
+<ul>
+   
+  <h3><li>View animations</li>
+  </h3>
+  <ul>
+    <li>
+      <h3><a href="animations/">All animations</a>.</h3>
+    </li>
+    <li>
+      <h3><a href="powani.shtml">Power circuit animation.</a><br>
+      </h3>
+    </li>
+  </ul>
+  <h3>   <li><a href="toolbox.html">Get tools</a>     to make your own animations.<br>
+     <br>
+   </li>
+   <li><a href="background.html">Background information</a>   .</li>
+   </h3>
+ 
+</ul>
+ 
+<hr width="100%"> 
+<h4><a href="http://thayer.dartmouth.edu">Thayer School of Engineering</a> 
+   , <a href="http://www.dartmouth.edu">Dartmouth College</a> </h4>
+ 
+<p>For comments or questions email: <a
+ href="mailto:Charles.R.Sullivan@dartmouth.edu">    Charles.R.Sullivan@dartmouth.edu</a> 
+</p>
+ 
+<p>This page last updated on June 9, 2002<br>
+    &copy; 2002 </p>
+    This material is based upon work supported by the National Science Foundation under Grant No. 9875204.
+
+Any opinions, findings and conclusions or recomendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation (NSF).
+
+ </div>
+ </div>
+ <br>
+</body>
+</html>

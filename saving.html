@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+                                       
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+  <title>3D circuit animation toolbox</title>
+                                                              
+  <meta name="author" content="Charles R. Sullivan">
+                                   
+  <meta name="description" content="View 3D (3-D) electrical and electronic circuit 
+animations and download free MATLAB tools">
+</head>
+  <body text="#000000" bgcolor="#e7ddff" link="#0000ee" vlink="#551a8b" alink="#0000ee">
+ 
+<div align="Center"> 
+<h2><font color="#e80000">Putting 3-D Circuit Animations from <br>
+          The <a href="index.html">Circuit Animation Toolbox</a>
+  on the Web</font></h2>
+ 
+<div align="Left">We have had the best results putting line-art animations 
+on the web using GIF format. &nbsp;Typical video compression schemes do poorly 
+because they are designed for photographic images--they result in large file 
+sizes and poor quality when used with circuit animations. &nbsp;Another format 
+that can be expected to work well is MNG (<a href="http://www.libpng.org/pub/mng/">
+ Multiple-image Network Graphics</a>
+ ), based on the corresponding PNG (<a href="http://www.libpng.org/pub/png/">
+ Portable Network Graphics</a>
+ ) format. &nbsp;<br>
+ <br>
+ The process we have used works as follows. &nbsp;We save graphics from MATLAB 
+to an uncompressed avi file (because the available compression schemes don't 
+work well). &nbsp;Then we use <a href="http://www.mindworkshop.com/alchemy/gifcon.html">
+ GIF Contruction Set Professional</a>
+ , an inexpensive shareware program by <a href="http://www.mindworkshop.com/alchemy/alchemy.html">
+ Alchemy Mindworks</a>
+ , to convert to GIF and compress the files. &nbsp;Alchemy Mindworks' <a href="http://www.mindworkshop.com/alchemy/pngpro.html">
+ PNG/MNGContruction Set Professional</a>
+  should work similarly for MNG animations. &nbsp;The detailed process is 
+outlined below<br>
+<br>
+Please <a href="mailto:charles.r.sullivan@dartmouth.edu">email me</a>
+  a link to animations you create, so that we can put a link to it on the
+page of <a 
+href="animations/">animations 
+on-line</a>
+ .<br>
+<br>
+ <br>
+ 
+<hr width="100%"> 
+<h2><font color="#e00000">Step-by-step instructions for putting animations 
+on the Web.</font></h2>
+ 
+<blockquote></blockquote>
+   
+  <ol>
+     <li>Modify the m-file for the circuit you wish to animate by using <tt>
+ saveanimation(....)</tt> in place of <tt>canimate(...)</tt>, using the same 
+arguments. &nbsp;A nice way to do this is to add an optional input argument&nbsp;<tt>
+ save</tt> that is omitted to run the animation directly, or set to one to 
+save it to disk, as in this code, which assumes three other input arguments 
+before <tt>save</tt>.<br>
+       <br>
+       <tt>if nargin&lt;4, save = 0; end&nbsp;&nbsp; % Sets it up to not
+save anything if save has not been specified.<br>
+ if save<br>
+ &nbsp;&nbsp;&nbsp; saveanimation(t,vm,cvm,im,ca,ia,rate,switchm);<br>
+ else<br>
+ &nbsp;&nbsp; canimate(t,vm,cvm,im,ca,ia,rate,switchm);<br>
+ end</tt><br>
+       <br>
+ Do not loop the animation yet--the file will be big enough (10s of MB) without 
+looping!<br>
+       <br>
+     </li>
+     <li>Run the animation and select a file to save to. &nbsp;The code is 
+set up to save a maximum of 100 frames in a single file, and to prompt you 
+for a new filename if the animation runs more than 100 frames. &nbsp;This 
+is to keep the file sizes manageable. &nbsp;If you run this on a machine with
+plenty of memory, you may be able to change this and use larger files--change 
+the variable <tt>maxframes </tt>in <tt>saveanimation.</tt> &nbsp;It is recommended 
+that you leave the figure window active and not run other applications while 
+saving the animation; otherwise bits of other images can get in the file.<br>
+       <br>
+     </li>
+     <li>Launch GIF Construction Set Professional. &nbsp;You may wish to
+quit MATLAB and other programs first, as this process will require a lot
+of memory<br>
+       <br>
+     </li>
+     <li>Convert your avi file to gif from the 'File: Movie: Movie to GIF' 
+menu item. &nbsp;Select loop if you wish for it to loop. &nbsp;Save the GIF 
+file and repeat for each 100-frame file if your animation has been broken 
+into multiple files.<br>
+       <br>
+     </li>
+     <li>Merge the multiple files together. &nbsp;Start by opening one, and 
+positioning the insertion point where you want to add the others (typically 
+at the end of the sequence). &nbsp;Select 'Merge' from the 'Block' menu to 
+add the frames from another file. &nbsp;Repeat for as many files as the animation 
+has been broken down into.<br>
+      <br>
+    </li>
+    <li>Select the 'Supercompress' option from the file menu to compress
+this merged file.<br>
+      <br>
+    </li>
+    <li>The animation can then be placed on the web. &nbsp;It is helpful
+to put an html 'wrapper' on it, because some web browsers (e.g., Internet
+Explorer) may open a GIF file using a still image editor rather than displaying
+the animation in the web browser, if given the GIF file in the URL directly,
+rather than being pointed to an html page that containts the image.<br>
+      <br>
+    </li>
+    <li>Send <a href="mailto:charles.r.sullivan@dartmouth.edu">me</a>
+ a link to your animation, so that we can put a link to it on the page of
+      <a href="animations/">animations on-line</a>
+.<br>
+    </li>
+     
+  </ol>
+       
+  <hr width="100%">  Back to <a href="file:///D:/cani/web/toolbox.html">circuit
+animations toolbox instructions and download</a>
+ or <a href="index.html">3D circuits homepage</a>
+, or jump to <a href="animations/index.html">animations 
+on-line</a> , or to <a href="background.html">background 
+information</a>
+    .               
+  <hr width="100%">       
+  <h4><a href="http://thayer.dartmouth.edu">Thayer School of Engineering</a>
+      , <a href="http://www.dartmouth.edu">Dartmouth College</a>
+       </h4>
+       
+  <p>For comments or questions email: <a href="mailto:Charles.R.Sullivan@dartmouth.edu">
+      Charles.R.Sullivan@dartmouth.edu</a>
+       </p>
+       
+  <p>This page last updated on June 9, 2002<br>
+      &copy; 2002 </p>
+       </div>
+       </div>
+       
+  </body>
+  </html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Animations for ENGS 22 homework</title>
+                                                                     
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+</head>
+  <!--#include file="colors.html" -->
+                   
+<h2><font color="#990000" face="Helvetica, Arial, sans-serif">     Animations for ENGS 22 homework:</font></h2>
+                           
+    <font face="Helvetica, Arial, sans-serif"><big><a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/RCI1.shtml">RCI circuit</a></big></font><br>
+       <font face="Helvetica, Arial, sans-serif"><big>      <a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/RLI1.shtml">RLI circuit</a></big></font><br>
+       <font face="Helvetica, Arial, sans-serif"><big>      <a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/VRC1.shtml">VRC circuit</a></big></font><br>
+  <font face="Helvetica, Arial, sans-serif"><big>      <a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/VRL1.shtml">VRL circuit</a></big></font><br>
+
+                
+<hr width="100%">
+<br> <br> <br>
+<font face="Helvetica, Arial, sans-serif">
+<a href="http://thayer.dartmouth.edu/3Dcircuits">3D circuit animation homepage</a> <br>
+<br>
+<br>
+<a href="http://thayer.dartmouth.edu/inductor">Magnetics and Power Electronics Research Group</a> <br>
+<br>
+<a href="http://thayer.dartmouth.edu">Thayer School of Engineering</a>, <a
+ href="http://www.dartmouth.edu">Dartmouth College</a></font>           
+            
+<p><font face="Helvetica, Arial, sans-serif">For comments or questions email:
+     <a href="mailto:Charles.R.Sullivan@dartmouth.edu">            Charles.R.Sullivan@dartmouth.edu</a></font>
+       </p>
+                           
+<p><font face="Helvetica, Arial, sans-serif">
+This page last updated <!--#echo var="LAST_MODIFIED" --> <br>
+                         &copy; 2002-2003</font> </p>
+                     <br>
+             <br>
+</body>
+</html>
