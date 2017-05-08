@@ -1,20 +1,294 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-                                                   
+
   <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
   <title>3D circuit animation toolbox</title>
-                                                                        
-          
+
+
   <meta name="author" content="Charles R. Sullivan">
-                                               
-  <meta name="description" content="View 3D (3-D) electrical and electronic circuit 
+
+  <meta name="description" content="View 3D (3-D) electrical and electronic circuit
 animations and download free MATLAB tools">
 </head>
-  <body>
-  <meta http-equiv="refresh" content="0;URL=http://thayer.dartmouth.edu/3Dcircuits/toolbox.shtml">
+     <body text="#000000" bgcolor="#efe8dd" link="#000099" vlink="#990099"
+ alink="#000099">
+     <STYLE TYPE="text/css">
+      <!--
+      body {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H1 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H2 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H3 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H4 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H5 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H6 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      -->
+</STYLE>
 
-<body> You are being redirected to <a href="http://thayer.dartmouth.edu/3Dcircuits/toolbox.shtml"> http://thayer.dartmouth.edu/3Dcircuits/toolbox.shtml </a>
-                               
+<h1>3-D Circuits <br>
+             The Circuit Animation Toolbox for M<small>ATLAB</small></font></h1>
+
+To create your own animations, or to view the many animations
+   that have been created by have not been put online yet, you need <a href="http://www.mathworks.com">
+       MATLAB</a>
+        version 5 or higher (Version 5.3 or higher is recommended for smoothest
+   appearance), and a set of 23 matlab functions which constitute the Circuit
+   Animation Toolbox, which is available, free of charge, below. &nbsp;<br>
+    <br>
+       Creating animations requires familiarity with the basics MATLAB programming,
+   but running the 22 ready-made animations, which are including in the zip
+  file blow, is possible without learning MATLAB programming. &nbsp;See the
+  <a href="#tips"> instructions for running animations in MATLAB</a>
+       .<br>
+    <br>
+     Users who wish to create their own animations should consult the <a href="#instructions">
+    instructions for creating new animations</a>, below.<br>
+
+<ul>
+
+  <h3><li><a href="cani1.2.zip">Download Circuit Animation Toolbox zip
+file</a>
+        (41k).<br>
+        <br>
+      </li>
+      <li><a href="toolbox_files">Download individual files</a>
+       &nbsp; (This is tedious, as there are about 50 files, and is recommended
+   only if you cannot unpack zip files.)</li>
+      </h3>
+
+</ul>
+
+<hr width="100%">
+<h2><a name="tips"></a>
+    <font color="#e00000">Instructions for running animations in MATLAB</font></h2>
+      After downloading the files above and unzipping them, <br>
+
+<blockquote>
+  <h3><font color="#e00000">Details of getting it running</font><br>
+      </h3>
+      </blockquote>
+
+  <ol>
+        <li>Add the cani1.2 folder and its subfolders to the <a
+href="http://www.mathworks.com/access/helpdesk/help/techdoc/matlab_env/ws_pat14.html">
+      MATLAB path</a>
+       by choosing 'set path' from the file menu in MATLAB. &nbsp;'Add with
+ subfolders'  is a convenient way to add both the 'caniFunctions' folder and
+ the 'caniCircuits'  sub-folders. &nbsp;<br>
+          <br>
+        </li>
+        <li>To get a list of the available animations, type&nbsp;'help caniCircuits'
+   in the MATLAB command window (at the '&gt;&gt;' prompt).&nbsp;<br>
+          <br>
+        </li>
+        <li>Many of these animations can be run simply by typing their names
+   in the command window. &nbsp;However, others require input arguments.
+&nbsp;To    find out about input arguments, type 'help &lt;circuitname&gt;'
+where &lt;circuitname&gt;    is the name of the animation you are interested
+in. &nbsp;Then type its  name  with numerical values for each parameter,
+for example,<br>
+      &nbsp;<tt>&gt;&gt;buckani(1,5,0.25)<br>
+          </tt>The 'save' option available for many circuits will substantially
+   degrade the live display of the animation. &nbsp;Use it only to create
+a  movie file to later convert to gif format for putting on the web, as described
+  in the <a href="saving.html">animations on the web      instructions</a>
+ .<br>
+          <br>
+        </li>
+        <li>The circuit will be drawn in a figure window. &nbsp;Generally,
+ you   will be prompted to hit a key to start it running. &nbsp;You must
+do  so in  the command window, so you must first click on the command window
+and then  hit a key. &nbsp;You may wish to shrink the command window and
+enlarge the  figure window.<br>
+        <br>
+      </li>
+      <li>For notes on interpreting the images, see the notes in the <a href="saving.html">
+  animations on-line</a>
+   section.<br>
+
+      <h3><font color="#e00000">Controlling it while it is running</font><br>
+          </h3>
+        </li>
+        <li>While an animation is running, you may:<br>
+
+      <ul>
+            <li><b>Pause the animation</b> temporarily by clicking and holding
+  on the  title bar of the figure window.</li>
+            <li><b>Stop the animation</b> by typing &lt;ctrl&gt;C in the
+command   window.</li>
+            <li><b><a name="rotate_the_view"></a>
+    Rotate the &nbsp;view</b>. &nbsp;In MATLAB 6, the 'rotate camera'  option
+  allows rotating the veiw while the animation continues. &nbsp;From  the
+figure  window 'tools' menu, select 'camera motion and 'rotate camera', or
+use the  'view' menu to display the 'camera toolbar.'<br>
+      In older versions of matlab, the 'rotate 3D' option under 'tools' or
+ on  the figure toolbar accomplishes the same thing, but without a live view
+ as  the figure is rotated.</li>
+
+      </ul>
+        </li>
+
+  </ol>
+
+  <hr width="100%">
+  <h2><font color="#e00000"><a name="instructions"></a>
+    Instructions for creating new animations</font></h2>
+    First check that you have downloaded the files and set them up on your
+ path  correctly, by testing an existing animation, as described <a href="#tips">
+    above</a>
+    . &nbsp;In the instructions below, basic familiarity with MATLAB is assumed.<br>
+
+  <blockquote>
+    <h3><font color="#e00000">Simple Animations</font><br>
+        </h3>
+        </blockquote>
+
+    <ol>
+          <li>Open the simple_example.m file in the 'CaniExamples' folder,
+ and  save a copy under the name of the animation you wish to create, in
+a  directory  of your choice on the MATLAB path. &nbsp;The file must have
+a         <tt>.m</tt>   suffix.</li>
+          <li>The function call aninit intializes some variables, such as
+the  cell array structure that will contain handles to each of the graphics
+objects  you create. &nbsp;You do not need to modify this.</li>
+          <li>Estimate the size of the grid of nodes you need to draw your
+ circuit,  and if necessary change the 'makegrid(3,3)' to larger dimensions.
+ &nbsp;It  is helpful to put a a grid with the node numbers as a comment,
+to refer to  as you build the circuit. &nbsp;You can type showgrid(m,n) in
+the command  window to display the same grid that is produced internally
+by a call to makegrid(m,n).</li>
+          <li>&nbsp;Now you are ready to build up the circuit by adding components
+  one-by-one, with statements like<br>
+      &nbsp;<tt>ca = addR(ca,1,2)<br>
+            </tt>This takes the circuit cell array <tt>ca</tt> and adds a
+resistor  between nodes 1 and 2. &nbsp;The circuit is drawn in the Figure
+1 window as it is built up by these commands. &nbsp;Elements available can
+be listed by typing 'help caniElements'. &nbsp;Simple elements are &nbsp;L,
+R, C, wire,  V, I. &nbsp;See <a href="#advanced">Advanced Features</a>
+     for details on diodes, switches and op-amps.</li>
+          <li>Current arrows can be added by<tt> ia = currentarrow(ia,n1,n2,cn)</tt><br>
+    This adds a current arrow to the circuit animation current-arrow cell
+array          <tt>ia</tt>. &nbsp;The current number <tt>cn</tt> specifies
+which  column in the current matrix (to be created below) is used to specify
+the  current value. &nbsp;The arrow points from n1 to n2 when the current
+value  is positive. &nbsp;Current numbers can be the same for more than one
+arrow  if the currents are equal for each.</li>
+          <li>Now is a good time to try running your program and seeing if
+ the  circuit it draws is what you wanted. &nbsp;If current arrows are awkwardly
+  positioned, you can move them to the other side of the element they track
+  by reversing n1 and n2 for the current arrow; for current direction, you
+ will now flip the sign from what you planned to use.</li>
+          <li>The number of frames, and a column vector of equally-spaced
+times  are now specified. &nbsp;The units aad scaling the time vector can
+be arbitrary;  the animation will be shown at a specified frame rate not in
+real time.&nbsp;</li>
+          <li>Calculate a voltage matrix <tt>vm</tt> that specifies the voltage
+  at each node at each time. &nbsp;Each column corresponds to a node, and
+each  row correponds to a frame in the animation, and the corresponding time
+in  the time vector. &nbsp;The number of columns must match the number of
+nodes  created by makgrid(n,m) &nbsp;(the product of n and m).</li>
+          <li>Calculate a current matrix <tt>im</tt> that specifies each
+current   at each time. &nbsp;Each column corresponds to a current number
+in a <tt>    currentarrow</tt> command, and each row correponds to a frame
+in the animation,   and the corresponding time in the time vector. &nbsp;<br>
+            <br>
+    The current and voltage matricies could also be imported from the output
+  of a circuit simulator program; MATLAB commands to load that data (such
+as          <tt>dlmread</tt>)  would be used here.<br>
+            <br>
+          </li>
+          <li>Set the rate in frames per second. &nbsp;20 normally gives
+good   results.</li>
+          <li>Final setup is performed by the function call <tt>vm_scaled=aniset(vm)</tt>
+    . &nbsp;This also automatically sets the scaling of voltages. &nbsp;<tt>
+   cvm</tt>  is the voltage matrix used to color nodes; it may be scaled
+differently,   but is normally set equal to <tt>vm_scaled</tt>.</li>
+          <li>The final command needed is to run the animation with
+<tt>canimate(t,vm_scaled,cvm,im,ca,ia,rate,cvm);</tt></li>
+          <li>Save your file.<br>
+          </li>
+          <li>Test your animation and debug as necessary. &nbsp;See above
+for          <a href="#tips">instructions on running an animation</a>
+   .</li>
+         <li>When you have finished a good one, please <a href="mailto:charles.r.sullivan@dartmouth.edu">
+   email me</a>
+      a copy so I can put it in the collection including in the toolbox.<br>
+          </li>
+
+    </ol>
+
+    <blockquote>
+      <h3><font color="#e00000"><a name="advanced"></a>
+    Advanced Features</font><br>
+          </h3>
+          </blockquote>
+
+      <ol>
+            <li><b>Switches and diodes.</b> &nbsp;Switches and diodes require
+  &nbsp;an additional matrix <tt>swm</tt>, to specify whether they are on
+or  off in each frame. &nbsp;The format works just like current arrows, with
+ an extra number <tt>swn</tt> in each <tt>addD(n1,n2,swn)</tt> &nbsp;or&nbsp;
+            <tt>addswitch(n1,n2,swn) </tt>function call, that specifies the
+  column of <tt>swm</tt> to be used. &nbsp;The difference is that <tt>swm</tt>
+     is a logical matrix of ones indicating when a switch is on and zeros
+indicating  when it is off. &nbsp;Note that the ability to specify a diode
+as being on,  even when the current through it is negative, is useful in illustrating
+reverse-recovery  phenomena. &nbsp;The call to <tt>canimate</tt>  must then
+include <tt>swm</tt>  :<br>
+              <tt>canimate(t,vm_scaled,cvm,im,ca,ia,rate,cvm,swm);</tt><br>
+            </li>
+            <li><b>Opamps </b>have three nodes, but they can't be positioned
+  arbitrarily; the lead wires are in a fixed arrangement. &nbsp;See help
+on             <tt>addopamp</tt> for details.</li>
+            <li><b>Looping</b>. &nbsp;Looping to illustrate behavior of a
+periodic  circuit is possible simply by putting the canimate command in a
+loop. &nbsp;In  this case, it is desirable to avoid the intial pause that
+is the default.  &nbsp;This is done by setting the optional argument <tt>
+ skippause</tt> to  one. &nbsp;For example, this code runs an animation&nbsp;</li>
+            <li><b>View angle</b>. &nbsp;Although <a href="#rotate_the_view">
+    manual rotation of the camera angle</a>
+     is always possible after starting the animation, it can be helpful to
+ put  a good starting angle into your m-file. &nbsp;The standard matlab command
+            <tt>view(az,el)</tt> sets the azimuth and elevation of the view.<br>
+            </li>
+            <li><b>Input parameters</b> can be added to vary component values,
+  etc. by making your m-file into a function with input parameters.</li>
+           <li><b>Changing the vertical scale </b>is sometimes useful for
+making  things easier to look at. &nbsp;You can fool <tt>aniset</tt> into
+using a  larger scale by scaling its input up, and then scaling it back down
+afterwards  , as in this example:<br>
+             <br>
+             <tt>vm_scaled=aniset(vm*2);&nbsp; %Set up scaling on the graph,
+ etc., scaled up by a factor of 2.&nbsp; <br>
+   cvm=vm_scaled;&nbsp; %Use full range for color scale.<br>
+   vm_scaled=vm_scaled/2; %Scale back down so that the voltage displayed
+is  as in the original vm.</tt><br>
+             <br>
+           </li>
+            <li><b><a href="saving.html">Saving an animation for web viewing</a>
+     </b>is a topic addressed on a <a href="saving.html">separate page</a>
+    .<br>
+            </li>
+
+      </ol>
+
+      <hr width="100%">  Back to <a href="index.html">3D circuits homepage</a>
+         , or jump to <a href="animations/index.html">animations on-line</a>
+         , or to <a href="background.html">background information</a>
+       .
+      <hr width="100%">
+      <h4><a href="http://thayer.dartmouth.edu">Thayer School of Engineering</a>
+         , <a href="http://www.dartmouth.edu">Dartmouth College</a>
+          </h4>
+
+      <p>For comments or questions email: <a href="mailto:Charles.R.Sullivan@dartmouth.edu">
+         Charles.R.Sullivan@dartmouth.edu</a>
+          </p>
+
+      <p>This page last updated on June 9, 2002<br>
+         &copy; 2002 </p>
+          </div>
+          </div>
+
       </body>
       </html>

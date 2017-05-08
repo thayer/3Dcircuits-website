@@ -12,7 +12,20 @@
   <title>Buck Converter Animation</title>
 
 </head>
-   <!--#include file="colors.html" -->
+     <body text="#000000" bgcolor="#efe8dd" link="#000099" vlink="#990099"
+ alink="#000099">
+     <STYLE TYPE="text/css">
+      <!--
+      body {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H1 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H2 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H3 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H4 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H5 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H6 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      -->
+</STYLE>
+
 
 <table cellpadding="0" cellspacing="4" border="0" width="90%">
     <tbody>
@@ -32,7 +45,56 @@
         <td valign="top">
         <a href="bridger_w_gnd.mov">Same animation in quicktime</a> </br>
         <a href="bridgegr.mov">Version with ground placed differently</a>
-     <!--#include file="navlist.html" -->
+       <body text="#000000" bgcolor="#efe8dd" link="#000099" vlink="#990099"
+ alink="#000099">
+     <STYLE TYPE="text/css">
+      <!--
+      body {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H1 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H2 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H3 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H4 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H5 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      H6 {font-family:'Helvetica', 'Arial', 'sans-serif'}
+      -->
+</STYLE>
+ <h3 align="left"><font face="Helvetica, Arial, sans-serif"><big>Select
+Another Animation</big></font></h3>
+
+      <h4 align="left"><font face="Helvetica, Arial, sans-serif"><big>Converters</big></font></h4>
+      <div align="left">       </div>
+
+      <blockquote><font face="Helvetica, Arial, sans-serif"><big><a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/buckanimation.html">Buck</a></big></font><br>
+       <font face="Helvetica, Arial, sans-serif"><big>      <a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/boo.html">Boost</a></big></font><br>
+       <font face="Helvetica, Arial, sans-serif"><big>      <a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/discbuck.html">Discontinuous
+  buck</a></big></font><br>
+     </blockquote>
+
+      <div align="left">       </div>
+      <h4 align="left"><font face="Helvetica, Arial, sans-serif"><big>Rectifiers</big></font></h4>
+      <div align="left">       </div>
+
+      <blockquote><font face="Helvetica, Arial, sans-serif"><big><a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/diode.html">Simple
+      diode  rectifier</a></big></font><br>
+            <font face="Helvetica, Arial, sans-serif"><big><a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/bridgeR.html">Bridge
+      Rectifier</a></big></font><br>
+            <big>     <font face="Helvetica, Arial, sans-serif"><a
+ href="http://engineering.dartmouth.edu/3Dcircuits/animations/rectc.html">Half-wave
+      with Cap</a></font></big><br>
+          </blockquote>
+
+      <div align="left">       </div>
+      <h3 align="left"><font face="Helvetica, Arial, sans-serif"><a
+ href="../powani.html">Back to Menu</a></font></h3>
+      <div align="left">                               </div>
+      <h4 align="left">      </h4>
+      <div align="left">          </div>
+
       </td>
         </tr>
 
